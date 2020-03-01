@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  background-color: #aaa;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+  background-color: #be3144;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar > a {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+  text-decoration: none;
+}
+
+#welcome-section {
+  /* background-color: #303841; */
+  height: 100vh;
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-basis: 100%;
+  background: linear-gradient(90deg, #303841, #181719);
+}
+
+#welcome-section > h1 {
+  color: white;
+  width: 100%;
+  margin: 0;
+  font-size: 60px;
+}
+#welcome-section > h2 {
+  color: #be3144;
+  width: 100%;
+  margin: 0;
+  font-style: italic;
+  font-weight: 100;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+#projects {
+  background-color: #45567d;
+  height: auto;
+  padding-bottom: 48px;
+}
+
+#projects > .project-tile {
+  display: flex;
+  justify-content: center;
+}
+
+#projects > .project-tile > h3 {
+  padding-top: 32px;
+  padding-bottom: 4px;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  border-bottom: 2px solid white;
+  width: 44%;
+}
+
+#project-squares {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#first-project,
+#second-project,
+#third-project,
+#fourth-project,
+#fifth-project,
+#sixth-project {
+  width: 360px;
+  height: 360px;
+  margin-top: 20px;
+}
+
+.second-name-of-project {
+  background-color: #303841;
+  color: white;
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-of-project {
+  width: 360px;
+  height: 320px;
+  display: block;
+}
+
+#contacts {
+  background-color: #303841;
+  color: white;
+  height: 440px;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacts > h3 {
+  margin: 0;
+}
+
+#contacts > p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 12px;
+}
+
+#social {
+  margin-top: 24px;
+}
+
+#contacts > #social > a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 14px;
+}
+
+footer {
+  background-color: #303841;
+  color: white;
+  border-top: 4px solid #be3144;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 1100px) {
+  #project-squares {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #first-project,
+  #second-project,
+  #third-project,
+  #fourth-project,
+  #fifth-project,
+  #sixth-project {
+    width: 360px;
+    height: 360px;
+    margin: 20px;
+}
+
+}
